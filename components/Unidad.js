@@ -9,6 +9,7 @@ const [unit,setUnit]=useState(
     id:item.id,
     nombre:item.nombre,
     subtemas:item.subtemas,
+    ejercicios:item.ejercicios,
   }
   );
 

@@ -4,6 +4,15 @@ const unidades=[
       nombre:'Sistemas numericos',
       imagen:'https://res.cloudinary.com/dehywcruq/image/upload/v1682282436/onlineShop/cerebro_ntrixv.png',
       numeroUnidad:'U1',
+      ejercicios:[
+        {
+          id:2,
+          enunciado:'Calculca el valor de : Sistemas numericos 1',
+          respuesta:5.0,
+        }
+
+
+      ],
       subtemas:[
         {
           id:1,
@@ -13,13 +22,14 @@ const unidades=[
           funciones:'Nos permiten escribir e interpretar una cantidad, un número. Este sistema busca que se reduzca la utilización de palabras o símbolos que describen el número. Los egipcios utilizaban imágenes para formar o describir un determinado número.',
           caracteristicas:'sds',
           imagen:'https://res.cloudinary.com/dehywcruq/image/upload/v1684746047/aa4a7e746974745111339bcd097a113b_yuxg1d.png',
+         
           ejemplos: [
             {
               id:1,
-              titulo:'Ejercicio1',
-              descripcion:'',
+              titulo:'Ejercicio unidad sistemas numericos',
+              descripcion:'Ejemplo 1',
               imagen:'',
-              respuesta:'',
+              respuesta:5.0,
 
             }
           ]
@@ -42,8 +52,7 @@ const unidades=[
           isCompleted: true,
             
         }
-      ]
-      
+      ],
     
     },
     {
@@ -57,7 +66,16 @@ const unidades=[
           nombre:'1.1 Sistemas numericos(Binario,Octal,Decimal,Hexadecimal)',
             
         },
-      ]
+      ],
+      ejercicios:[
+        {
+          id:1,
+          enunciado:'Calculca el valor de : 2',
+          respuesta:5.0,
+        }
+
+
+      ],
     
     },
     {
@@ -65,7 +83,15 @@ const unidades=[
       nombre:'Logica matematica',
       imagen:'https://res.cloudinary.com/dehywcruq/image/upload/v1682282137/onlineShop/logica_ocbu1n.png',
       numeroUnidad:'U3',
-      
+      ejercicios:[
+        {
+          id:1,
+          enunciado:'Calculca el valor de :3',
+          respuesta:5.0,
+        }
+
+
+      ],
     
     },
     {
@@ -73,7 +99,15 @@ const unidades=[
       nombre:'Algebra Booleana',
       imagen:'https://res.cloudinary.com/dehywcruq/image/upload/v1682282217/onlineShop/graph_iopzlm.png',
       numeroUnidad:'U4',
-     
+      ejercicios:[
+        {
+          id:1,
+          enunciado:'Calculca el valor de :4',
+          respuesta:5.0,
+        }
+
+
+      ],
     
     },
     {
@@ -81,7 +115,15 @@ const unidades=[
       nombre:'Teoria de grafos',
       imagen:'https://res.cloudinary.com/dehywcruq/image/upload/v1682282384/onlineShop/nodos_wzqqhp.png',
       numeroUnidad:'U5',
-     
+      ejercicios:[
+        {
+          id:1,
+          enunciado:'Calculca el valor de :5',
+          respuesta:5.0,
+        }
+
+
+      ],
     
     },
     {
@@ -89,7 +131,15 @@ const unidades=[
       nombre:'Arboles y redes',
       imagen:'https://res.cloudinary.com/dehywcruq/image/upload/v1682282300/onlineShop/nodo_qdazzr.png',
       numeroUnidad:'U6',
-   
+      ejercicios:[
+        {
+          id:1,
+          enunciado:'Calculca el valor de :6',
+          respuesta:5.0,
+        }
+
+
+      ],
     
     },
   ];
