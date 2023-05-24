@@ -6,10 +6,16 @@ const unidades=[
       numeroUnidad:'U1',
       ejercicios:[
         {
+          id:1,
+          enunciado:'Calculca el valor de : Sistemas numericos 1',
+          respuesta:5.0,
+        },
+        {
           id:2,
           enunciado:'Calculca el valor de : Sistemas numericos 1',
           respuesta:5.0,
-        }
+        },
+        
 
 
       ],
@@ -70,6 +76,11 @@ const unidades=[
       ejercicios:[
         {
           id:1,
+          enunciado:'Calculca el valor de : 2',
+          respuesta:5.0,
+        },
+        {
+          id:2,
           enunciado:'Calculca el valor de : 2',
           respuesta:5.0,
         }

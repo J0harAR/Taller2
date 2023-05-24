@@ -2,13 +2,15 @@ import { View, Text ,StyleSheet,TouchableOpacity} from 'react-native'
 import React from 'react'
 import Subtemas from '../../../../components/Subtemas';
 import Icon from 'react-native-vector-icons/FontAwesome';
+import { useNavigation } from '@react-navigation/native';
 const MenuScreen = ({route}) => {
   const {id,nombre,subtemas,ejercicios}=route.params.unit;
-
+  
+  const navigation = useNavigation();
 
   const FloatingButton = ({ onPress }) => (
     <View style={styles.container}>
-      <TouchableOpacity style={styles.button} onPress={onPress} className="bg-emerald-600">
+      <TouchableOpacity style={styles.button} onPress={onPress} className="bg-green-500">
         <Icon name="plus" size={20} color="#FFF" />
         
       </TouchableOpacity>
@@ -16,7 +18,7 @@ const MenuScreen = ({route}) => {
   );
 
   const handleButtonPress = () => {
-   console.log(ejercicios[0].enunciado)
+    navigation.navigate('EjerciciosScreen',{ejercicios})
   };
     
   return (

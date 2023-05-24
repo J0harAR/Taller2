@@ -11,7 +11,7 @@ import Subtemas from "./components/Subtemas";
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
 import SubtemaScreen from "./src/screens/SubtemaScreen";
-
+import EjerciciosScreen from "./src/screens/EjerciciosScreen";
 
 export default function App() {
   const Stack = createNativeStackNavigator();
@@ -42,6 +42,14 @@ export default function App() {
           
           }}/>
            <Stack.Screen name="SubtemaScreen" component={SubtemaScreen} 
+        options={{
+          
+          title:'',headerStyle:{
+          backgroundColor: '#000'}
+          
+          
+          }}/>
+           <Stack.Screen name="EjerciciosScreen" component={EjerciciosScreen} 
         options={{
           
           title:'',headerStyle:{
