@@ -25,14 +25,15 @@ export default function App() {
          <Stack.Screen name="onboarding" component={Boarding} 
         options={{title:'',headerStyle:{
           backgroundColor: '#000'
-        }}}/>
+            }
+        }}/>
         <Stack.Screen name="library" component={Library} options={{title:'',headerStyle:{
           backgroundColor: '#000'
-        }}}/>
+        }, headerTintColor: '#FFF'}}/>
         <Stack.Screen name="MenuScreen" component={MenuScreen} 
         options={{title:'',headerStyle:{
           backgroundColor: '#000'
-        }}}/>
+        },headerTintColor: '#FFF'}}/>
          <Stack.Screen name="subTemas" component={Subtemas} 
         options={{
           
@@ -45,7 +46,8 @@ export default function App() {
         options={{
           
           title:'',headerStyle:{
-          backgroundColor: '#000'}
+          backgroundColor: '#000'},
+          headerTintColor: '#FFF'
           
           
           }}/>
@@ -53,7 +55,8 @@ export default function App() {
         options={{
           
           title:'',headerStyle:{
-          backgroundColor: '#000'}
+          backgroundColor: '#000'},
+          headerTintColor: '#FFF'
           
           
           }}/>
