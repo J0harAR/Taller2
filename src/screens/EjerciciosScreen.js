@@ -8,7 +8,7 @@ const EjerciciosScreen = ({ route }) => {
   const [isCorrect, setIsCorrect] = useState(new Array(ejercicios.length).fill(null));
 
   const checkAnswer = (exerciseIndex) => {
-    const parsedAnswer = parseFloat(answers[exerciseIndex]);
+    const parsedAnswer = answers[exerciseIndex];
     const exercise = ejercicios[exerciseIndex];
 
     if (parsedAnswer === exercise.respuesta) {

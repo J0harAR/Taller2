@@ -7,13 +7,13 @@ const unidades=[
       ejercicios:[
         {
           id:1,
-          enunciado:'Calculca el valor de : Sistemas numericos 1',
-          respuesta:5.0,
+          enunciado:'Convierte el número 73 al sistema de base 5 ',
+          respuesta:'243(5)',
         },
         {
           id:2,
-          enunciado:'Calculca el valor de : Sistemas numericos 1',
-          respuesta:5.0,
+          enunciado:'Convierte el número 50 al sistema de base 3 ',
+          respuesta:' 1212(3)',
         },
         
 
